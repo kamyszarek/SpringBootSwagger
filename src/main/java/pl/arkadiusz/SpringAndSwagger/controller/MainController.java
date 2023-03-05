@@ -98,7 +98,7 @@ public class MainController {
         addressService.editAddress(address);
     }
 
-    
+
     @DeleteMapping("/deleteUser/{id}")
     public void deleteUser(@PathVariable long id) {
         userService.deleteUser(id);
